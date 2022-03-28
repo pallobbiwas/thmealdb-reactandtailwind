@@ -11,7 +11,7 @@ const Header = () => {
   ];
   const [open, setOpen] = useState(false)
   return (
-    <nav className="flex items-center justify-between">
+    <nav className="flex items-center justify-between bg-slate-800 p-4 rounded">
       <div>
         <h1 className="text-4xl font-mono font-bold text-orange-500">
           The Meal DB
